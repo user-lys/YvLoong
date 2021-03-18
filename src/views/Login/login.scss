@@ -1,0 +1,39 @@
+.login-form {
+  width: 600px;
+  height: 500px;
+  position: relative;
+  left: 200px;
+  top: 260px;
+  margin: 0 auto !important;
+  a{
+    color: #888;
+  }
+  span {
+    color:#ccc;
+  }
+}
+login-form-forgot {
+  float: right;
+}
+.ant-col-rtl .login-form-forgot {
+  float: left;
+}
+.login-form-button {
+  width: 100%;
+}
+.login-form-tips {
+  font-size: 16px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.login-brand{
+  position: absolute;
+  border-radius: 50%;
+  z-index: 500;
+  width: 300px;
+  height: 300px;
+  left: -500px;
+  top: -100px;
+  background: url(../../assets/icon/brand.jpg);
+  background-position: -110px 0px;
+
+}
